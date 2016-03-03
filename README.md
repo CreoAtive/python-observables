@@ -8,7 +8,7 @@ A simple package to create observable variables and observable lists.
 
 Create an instance of Observable with an initial value and add callbacks via **.subscribe(onChangeCallback)** method. Use **.set(value)** to change the value. All subscribed callbacks will be executed with new_value and old_value as arguments.
 
-**example**
+**Example**
 
 ```python
 from observables import Observable
@@ -33,7 +33,7 @@ print new_observable # will print "Bar"
 
 Create an instance of ObservableList with an initial list and add callbacks via **.subscribe(onChangeCallback)** method. Use default list methods to modify the list. All subscribed callbacks will be executed with new_value and old_value as arguments.
 
-**example**
+**Example**
 
 ```python
 from observables import ObservableList
